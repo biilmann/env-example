@@ -1,6 +1,6 @@
 require 'fileutils'
 
-FileUtils.mkdir("build")
+FileUtils.mkdir_p("build")
 
 File.open("build/index.html", "w") do |file|
   file << %{<!doctype html>
