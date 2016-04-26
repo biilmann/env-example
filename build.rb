@@ -9,7 +9,7 @@ File.open("build/index.html", "w") do |file|
 <body>
   <h1>Hello #{ENV['NAME']}</h1>
 
-  <p>This site is at <a href="#{ENV['URL']}">#{URL}</a></p>
+  <p>This site is at <a href="#{ENV['URL']}">#{ENV['URL']}</a></p>
 </body>
 </html>}
 end
